@@ -1,0 +1,53 @@
+
+Agenda:
+	Getting Started
+		* Go Installation
+		* IDE Installation and setup
+		* Git bash installation
+	Go Workspaces
+		bin , packages, src
+		Go path -> indicate the Go workspace
+		GO ROOT -> Installation path of GO, location of go SDK
+	* packages
+	* constants and variables
+	* functions
+	* conditionals
+	   if
+	   else if
+	   switch
+	   breaking and fallthrough
+	   
+	* loops
+	    for loops
+		for <exp>
+		for range
+		break and continue
+	* Arrays and slices
+	* maps
+	* structs
+	* defer, panic and recover
+	* pointers
+	* Concurrency
+	    sync.WaitGroup
+		GOMAXPROCS
+		Go scheduler
+	* Modules
+	    creating and maitaining modules
+		   * initializing the modules
+		   * Retrieving the dependencies
+		   * listing dependencies
+		   * removing unused dependencies
+		Go mod
+	* testing & benchmarking in Go
+	* Packaging & Imports
+		Directory layout
+	* Methods and interfaces
+		Other built-in packages
+			flag
+			os
+			
+	Why Go:
+		https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65#.qu6he77fy
+	Go Workspaces:
+		https://www.callicoder.com/golang-installation-setup-gopath-workspace/
+		   
