@@ -14,6 +14,9 @@ func main() {
 	anInt := 1234
 	fmt.Printf(" Datatype of %d is %T\n", anInt, anInt)
 
+	//anInt = "stringvalue"
+	//fmt.Printf(" Datatype of %d is %T\n", anInt, anInt)
+
 	// Will print 'string'
 	aString := "Hello World"
 	fmt.Printf(" Datatype of %s is %T\n", aString, aString)
@@ -46,5 +49,14 @@ func main() {
 	} else {
 		fmt.Println(" Vertex is null")
 	}
+
+	/* nil
+	-- pointer
+	   function
+	   interface
+	   slices
+	   channels
+	   maps 
+	   */
 
 }

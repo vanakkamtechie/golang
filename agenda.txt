@@ -4,13 +4,22 @@ Agenda:
 		* Go Installation
 		* IDE Installation and setup
 		* Git bash installation
+		    go run
+			go build
+			go install
+			go env
+			GOPATH
+			GOROOT
+			
 	Go Workspaces
 		bin , packages, src
 		Go path -> indicate the Go workspace
 		GO ROOT -> Installation path of GO, location of go SDK
 	* packages
 	* constants and variables
+	* type conversions
 	* functions
+	* init functions
 	* conditionals
 	   if
 	   else if
@@ -32,11 +41,13 @@ Agenda:
 		GOMAXPROCS
 		Go scheduler
 	* Modules
+	    https://medium.com/@fonseka.live/getting-started-with-go-modules-b3dac652066d
+		https://blog.golang.org/using-go-modules
 	    creating and maitaining modules
-		   * initializing the modules
-		   * Retrieving the dependencies
-		   * listing dependencies
-		   * removing unused dependencies
+		   * initializing the modules -- go mod init
+		   * Retrieving the dependencies -- go get 
+		   * listing dependencies   -- go list -m all
+		   * removing unused dependencies -- go mod tidy
 		Go mod
 	* testing & benchmarking in Go
 	* Packaging & Imports
