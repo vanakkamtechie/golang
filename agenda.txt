@@ -16,6 +16,8 @@ Agenda:
 		Go path -> indicate the Go workspace
 		GO ROOT -> Installation path of GO, location of go SDK
 	* packages
+	   go install <package dir path from src folder>
+	   Ref. https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
 	* constants and variables
 	* type conversions
 	* functions
