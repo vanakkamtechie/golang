@@ -19,25 +19,44 @@ Agenda:
 	   go install <package dir path from src folder>
 	   Ref. https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
 	* constants and variables
-	* type conversions
-	* functions
-	* init functions
 	* conditionals
 	   if
 	   else if
 	   switch
-	   breaking and fallthrough
-	   
+	   breaking and fallthrough	   
 	* loops
 	    for loops
 		for <exp>
 		for range
 		break and continue
 	* Arrays and slices
-	* maps
-	* structs
-	* defer, panic and recover
+	        General Declarations, Zero value of array, Short variable declaration, Initialize array with value in the same line and with multiline(comma is necessary),
+			details about automatic array length declaration(...) , len function, iteration over array, range , multidimentional array, pass by value
+		  Slices : 
+			https://medium.com/rungo/the-anatomy-of-slices-in-go-6450e3bb2b94
 	* pointers
+	* type conversions
+	* structs
+	    blueprint is nothing but schema containing the blueprint of data a structure will hold.
+		variable Declaration, zero value, assign values in the same order which is defined in the structs, initializing values with name,Pointer to a struct,
+		nested structure,Promoted fields(child struct variables can be accessible by parent struct)
+		https://medium.com/rungo/structures-in-go-76377cc106a2
+	* functions and methods
+		function vs method diff, syntax of methods,how to call method using struct type, pointer receiver to change the value of struct variable,
+		pointer dereferencing syntax (*e), Methods on nested struct,Promoted Fields, calling method receiver with pointer and without pointer,
+		pointer receiver accepts any datatype, Methods on non-struct type
+		https://medium.com/rungo/anatomy-of-methods-in-go-f552aaa8ac4a
+	* interfaces
+		Declaring interface, Implementing interface, Empty interface(All type by default implements the empty interface),Type assertion,
+		Embedding interfaces (add two interface in to another interface),
+		Pointer vs Value receiver,
+		https://medium.com/rungo/interfaces-in-go-ab1601159b3a
+	* init functions
+	
+	* maps
+	
+	* defer, panic and recover
+	
 	* Concurrency
 	    sync.WaitGroup
 		GOMAXPROCS
