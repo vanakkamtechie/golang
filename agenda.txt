@@ -77,9 +77,13 @@ Agenda:
 		Other built-in packages
 			flag
 			os
+	* Error handling
+		https://medium.com/rungo/error-handling-in-go-f0125de052f0
 			
 	Why Go:
 		https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65#.qu6he77fy
 	Go Workspaces:
 		https://www.callicoder.com/golang-installation-setup-gopath-workspace/
-		   
+	
+	End to End Sample Program: 
+	https://levelup.gitconnected.com/crud-restful-api-with-go-gorm-jwt-postgres-mysql-and-testing-460a85ab7121	

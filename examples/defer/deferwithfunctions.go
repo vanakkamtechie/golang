@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	call("method")
+	defer fmt.Println("progrm execution completed")
+	defer call("end")
+	fmt.Println("Main function completed")
 }
 
 func call(param string) {
